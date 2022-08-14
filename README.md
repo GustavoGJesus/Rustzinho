@@ -17,13 +17,13 @@ $ cargo new hello_cargo
 $ cd hello_cargo
 ```
 
-1. Connect your repository 
+2. Connect your repository 
 
 ```rust
 $ cargo new <path your directory>
 ```
 
-1. Building and executing a project with cargo:
+3. Building and executing a project with cargo:
 
 ```rust
 $ cargo build
@@ -34,7 +34,7 @@ $ ./target/debug/hello_cargo # or .\target\debug\hello_cargo.exe on Windows
 Hello, world!
 ```
 
-1. Importantly, the best option is to use the command:
+4. Importantly, the best option is to use the command:
 
 ```rust
  $ cargo check
@@ -42,7 +42,7 @@ Hello, world!
 
 This command checks your code, but it doesn't generate an executable, it just checks if your code is compiling
 
-1. Build for release, this command is used to build your project for delivery to the user, recommend using this command only when your project is ready.
+5. Build for release, this command is used to build your project for delivery to the user, recommend using this command only when your project is ready.
 
 ```rust
 $ cargo build --release
